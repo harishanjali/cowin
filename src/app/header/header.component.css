@@ -1,0 +1,49 @@
+header .container-fluid {
+    padding: 0px 30px;
+}
+
+.main-header {
+    background-color: #045d5d;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    position: relative;
+    z-index: 10;
+    padding: 5px 0;
+}
+
+.main-logo-part {
+    float: left;
+    color: #000;
+    font-weight: 400;
+    display: inline-flex;
+    height: 100%;
+    align-items: center;
+}
+
+.main-title {
+    display: block;
+    font-size: 12px;
+    width: 67%;
+}
+
+.main-title a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.main-logo {
+    float: left;
+    height: auto;
+    width: 20px;
+    margin-top: 0;
+    margin-right: 8px;
+}
+
+.main-header ul {
+    margin-top: 16px;
+    padding-right: 25px;
+    width: 50%;
+    display: inline-flex;
+    list-style-type: none;
+}

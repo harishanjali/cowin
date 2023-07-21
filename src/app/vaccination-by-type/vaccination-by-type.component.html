@@ -1,0 +1,9 @@
+<div class="white-wrapper">
+    <div *ngIf="chart">
+        <p><b>Vaccination by type</b></p>
+        <canvas baseChart chartType="doughnut" [datasets]="pieChartData.data.datasets"
+            [labels]="pieChartData.data.labels" [options]="pieChartData.options"></canvas>
+
+    </div>
+
+</div>

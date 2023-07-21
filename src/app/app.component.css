@@ -1,0 +1,100 @@
+.white-wrapper {
+    background-color: #fff;
+    padding: 20px 15px 0;
+}
+
+.content-wrapper {
+    padding: 20px 15px 0;
+    background: #fff;
+    height: 100%;
+    background: #f4f6f9;
+}
+
+.small-box {
+    display: flex;
+    min-height: 100%;
+    align-items: center;
+    padding: 0 0 0 20px;
+    position: relative;
+    box-shadow: 0 4px 9px rgba(218, 218, 241, .49);
+    border-radius: 10px !important;
+    text-align: center;
+    background: #fff;
+}
+
+.icon-cirlce {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #d0fff1;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -35px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.small-box .inner {
+    width: 100%;
+    padding-top: 55px;
+    padding: 10px;
+    padding-top: 55px;
+}
+
+.inner p {
+    margin-bottom: 0 !important;
+    word-wrap: break-word;
+    color: #787878;
+    /* font-weight: 400; */
+    font-size: 14px;
+    margin-top: -5px;
+}
+
+.inner span {
+    color: #787878;
+}
+
+.inner small {
+    color: #6c757d !important;
+}
+
+.inner h3 {
+    color: #15124a;
+    font-weight: 600 !important;
+    font-size: 28px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+
+
+.total-vaccincation-doses {
+    background: url('../assets/images/total-vaccination-doses-icon.svg') no-repeat 50%;
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    margin: auto;
+    background-size: 100%;
+}
+
+.site-conducting-vaccination-icon {
+    background: url('../assets/images/site-conducting-vaccination-icon.svg') no-repeat 50%;
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    margin: auto;
+    background-size: 100%;
+}
+
+.total-registrations-icon {
+    background: url('../assets/images/total-registrations-icon.svg') no-repeat 50%;
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    margin: auto;
+    background-size: 100%;
+}

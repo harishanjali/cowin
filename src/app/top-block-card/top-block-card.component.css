@@ -1,0 +1,75 @@
+.top-block-card {
+    height: 100%;
+    box-shadow: 0 0 4px rgba(218, 218, 241, .49);
+    padding: 15px 0 0;
+    border-radius: 10px;
+    background-color: #fff;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    color: #fff;
+}
+
+.top-block-card.gradient-pink {
+    background: #e2f5f5 !important;
+}
+
+.icon-box {
+    background: #fff;
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 5px 10px #eee, 0 3px 3px #999;
+}
+
+.registration-today-icon {
+    background: url('../../assets/images/registrations-today-icon.svg') no-repeat 50%;
+    width: 29px;
+    height: 32px;
+    display: inline-block;
+    margin: auto;
+}
+
+.counter-update {
+    position: relative;
+    left: -10px;
+    text-align: left;
+    height: 65px;
+}
+
+.counter-update h3 {
+    color: #24263b;
+}
+
+.top-card-title {
+    font-size: 12px;
+    font-weight: 500;
+    display: block;
+    pointer-events: none;
+    padding-right: 60px;
+    word-wrap: break-word;
+}
+
+.today-box {
+    background: rgba(0, 0, 0, .1);
+    padding: 0 8px;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 5px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    position: absolute;
+    height: 20px;
+    top: -2px;
+    right: -2px;
+    font-size: 11px;
+    line-height: 1;
+    pointer-events: none;
+}
+
+.mobile-count {
+    color: #24263b;
+}
