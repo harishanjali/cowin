@@ -13,6 +13,34 @@
     background: #e2f5f5 !important;
 }
 
+.top-block-card.gradient-blue {
+    background: #e1effb !important;
+}
+
+.top-block-card.gradient-orange {
+    background: #ffe8d1 !important;
+}
+
+.top-block-card.gradient-green {
+    background: #dcfdf5 !important;
+}
+
+.top-block-card.gradient-sofyellow {
+    background: #dcfdf5 !important;
+}
+
+.top-block-card.gradient-purple {
+    background: #f3e1f3 !important;
+}
+
+.top-block-card.gradient-deepsky {
+    background: #fdebe3 !important;
+}
+
+.top-block-card.gradient-watermelon {
+    background: #ceedd2 !important;
+}
+
 .icon-box {
     background: #fff;
     width: 55px;
@@ -25,12 +53,46 @@
     box-shadow: 0 5px 10px #eee, 0 3px 3px #999;
 }
 
-.registration-today-icon {
-    background: url('../../assets/images/registrations-today-icon.svg') no-repeat 50%;
+.card-icon {
     width: 29px;
     height: 32px;
     display: inline-block;
     margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.registration-today-icon {
+    background: url('../../assets/images/registrations-today-icon.svg') no-repeat 50%;
+
+}
+
+.vaccination-icon {
+    background: url('../../assets/images/vaccination-today-icon.svg');
+}
+
+.partially-vaccinated-icon {
+    background: url('../../assets/images/partially-vaccinated-today-icon.svg');
+}
+
+.fully-vaccinated-icon {
+    background: url('../../assets/images/fully-vaccinated-today-icon.svg');
+}
+
+.twelve-icon {
+    background: url('../../assets/images/12-14-age-icon.svg');
+}
+
+.fifteen-icon {
+    background: url('../../assets/images/15-17-vaccination-icon.svg');
+}
+
+.eighteen-icon {
+    background: url('../../assets/images/18-59-precaution-dose-icon.svg');
+}
+
+.sixty-icon {
+    background: url('../../assets/images/60plus-icon.svg');
 }
 
 .counter-update {

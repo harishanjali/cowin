@@ -1,0 +1,27 @@
+<div class="white-wrapper">
+    <h5 class="wrapper-head">Registration Trends</h5>
+    <div class="d-flex justify-content-end">
+
+
+        <div class="btn-group" role="group" aria-label="day wise">
+            <input (click)="onChangeDuration($event)" type="radio" class="btn-check" name="agewise" id="radiobtn8"
+                autocomplete="off" checked value="today">
+            <label class="btn btn-outline-primary" for="radiobtn8">Today</label>
+
+            <input (click)="onChangeDuration($event)" type="radio" class="btn-check" name="agewise" id="radiobtn9"
+                autocomplete="off" value="last 30">
+            <label class="btn btn-outline-primary" for="radiobtn9">Last 30 Days</label>
+
+            <input (click)="onChangeDuration($event)" type="radio" class="btn-check" name="agewise" id="radiobtn10"
+                autocomplete="off" value="all">
+            <label class="btn btn-outline-primary" for="radiobtn10">All</label>
+        </div>
+    </div>
+    <div class="line-chart">
+        <div *ngIf='chart'>
+            <canvas baseChart chartType="line" [datasets]="yearChart.data.datasets" [labels]="yearChart.data.labels"
+                [options]="yearChart.options" height="100px"></canvas>
+        </div>
+
+    </div>
+</div>

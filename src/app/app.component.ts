@@ -13,51 +13,51 @@ export class AppComponent{
   public topBlockData = [
     {
       cardTitle:'REGISTRATIONS',
-      styleClass:'registration-today-icon',
+      styleClass:'registration-today-icon card-icon',
       count:123,
       cardColor:'top-block-card gradient-pink'
     },
     {
       cardTitle:'VACCINCATIONS',
-      styleClass:'registration-today-icon',
+      styleClass:'vaccination-icon card-icon',
       count:123,
-      cardColor:'top-block-card gradient-pink'
+      cardColor:'top-block-card gradient-blue'
     },
     {
       cardTitle:'PARTIALLY VACCINATED',
-      styleClass:'registration-today-icon',
+      styleClass:'partially-vaccinated-icon card-icon',
       count:123,
-      cardColor:'top-block-card gradient-pink'
+      cardColor:'top-block-card gradient-orange'
     },
     {
       cardTitle:'FULLY VACCINATED',
-      styleClass:'registration-today-icon',
+      styleClass:'fully-vaccinated-icon card-icon',
       count:123,
-      cardColor:'top-block-card gradient-pink'
+      cardColor:'top-block-card gradient-green'
     },
     {
       cardTitle:'12-14 VACCINCATIONS',
-      styleClass:'registration-today-icon',
+      styleClass:'twelve-icon card-icon',
       count:123,
-      cardColor:'top-block-card gradient-pink'
+      cardColor:'top-block-card gradient-sofyellow'
     },
     {
       cardTitle:'15-17 VACCINCATIONS',
-      styleClass:'registration-today-icon',
+      styleClass:'fifteen-icon card-icon',
       count:123,
-      cardColor:'top-block-card gradient-pink'
+      cardColor:'top-block-card gradient-purple'
     },
     {
       cardTitle:'18-59 PRECAUTION DOSES',
-      styleClass:'registration-today-icon',
+      styleClass:'eighteen-icon card-icon',
       count:123,
-      cardColor:'top-block-card gradient-pink'
+      cardColor:'top-block-card gradient-deepsky'
     },
     {
       cardTitle:'60+ PRECAUTION DOSES',
-      styleClass:'registration-today-icon',
+      styleClass:'sixty-icon card-icon',
       count:123,
-      cardColor:'top-block-card gradient-pink'
+      cardColor:'top-block-card gradient-watermelon'
     },
 
   ]

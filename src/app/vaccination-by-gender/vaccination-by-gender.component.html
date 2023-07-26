@@ -1,0 +1,10 @@
+<div class="white-wrapper">
+    <h5 class="wrapper-head">Vaccination by Gender</h5>
+    <div class="line-chart">
+        <div *ngIf='chart'>
+            <canvas baseChart chartType="pie" [datasets]="yearChart.datasets" [labels]="yearChart.labels"
+                [options]="yearChart.options"></canvas>
+        </div>
+
+    </div>
+</div>

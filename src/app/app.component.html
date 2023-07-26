@@ -2,7 +2,7 @@
 <div *ngIf="loading">
     <app-loader></app-loader>
 </div>
-<div class="" style="background: #fff;padding:20px 15px;">
+<div class="" style="background: #fff;padding:20px 15px;margin-top:112px;">
     <div class="container-fluid">
         <div class="row">
             <div *ngFor="let cardData of topBlockData" class="col-12 col-md-3 mb-3">
@@ -16,7 +16,7 @@
     <div class="content-wrapper">
         <div class="container-fluid" style="margin-top: 70px;">
             <div class="row">
-                <div class="col-12 col-md-4">
+                <div class="col-12 col-md-4 mb-3">
                     <div class="small-box">
                         <div class="icon-cirlce">
                             <span class="total-vaccincation-doses"></span>
@@ -48,7 +48,7 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-md-4">
+                <div class="col-12 col-md-4 mb-3">
                     <div class="small-box">
                         <div class="icon-cirlce">
                             <span class="site-conducting-vaccination-icon"></span>
@@ -75,7 +75,7 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-md-4">
+                <div class="col-12 col-md-4 mb-3">
                     <div class="small-box">
                         <div class="icon-cirlce">
                             <span class="total-registrations-icon"></span>
@@ -118,20 +118,70 @@
                 </div>
 
                 <!-- graph Details -->
-                <div class="col-12">
+                <div class="col-12 mb-3">
                     <app-vaccination-trends></app-vaccination-trends>
                 </div>
                 <!-- pie-charts details -->
-                <div class="col-4">
-                    <app-vaccination-by-age></app-vaccination-by-age>
+                <div class="col-4 mb-3">
+                    <app-vaccination-by-gender></app-vaccination-by-gender>
                 </div>
-                <div class="col-4">
+                <div class="col-4 mb-3">
                     <app-vaccination-by-type></app-vaccination-by-type>
                 </div>
-                <div class="col-12">
-                    <iframe src="https://www.youtube.com/watch?v=tOo9c6SK_do" width="600" height="400"></iframe>
-
+                <div class="col-4 mb-3">
+                    <app-vaccination-by-age></app-vaccination-by-age>
                 </div>
+                <div class="col-12 mb-3">
+                    <app-registration-trends></app-registration-trends>
+                </div>
+                <div class="col-6 mb-3">
+                    <app-aefi-reported></app-aefi-reported>
+                </div>
+                <div class="col-6 mb-3">
+                    <app-rural-vs-urban-trend></app-rural-vs-urban-trend>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="counter-text">
+        <div>
+            <p class="mb-0">*The figure displayed in the dose counter are provisional and are subject to
+                reconciliation.</p>
+            <p class="mb-0">*The figures for 18 years old (birth year 2004) are included in 18-44 age group.</p>
+        </div>
+        <div>
+            <p>Last Update:<b>2023/7/25 03:00 PM</b></p>
+        </div>
+    </div>
+    <app-footer></app-footer>
+</div>
+<div class="floating-filter">
+    <div class="floating-filter__container">
+        <div class="dropdown-btns">
+            <div class="state-filter dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    <img src="../assets/images/filter-icon.svg" class="img-fluid" alt="filter" />
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">India</a></li>
+                    <li><a class="dropdown-item" href="#">Andaman and Nicobar Islands</a></li>
+                    <li><a class="dropdown-item" href="#">Andhrapradesh</a></li>
+
+                    <li><a class="dropdown-item" href="#">Arunachal Pradesh</a></li>
+                </ul>
+            </div>
+            <div class="export-filter dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="../assets/images/export-icon.svg" class="img-fluid" alt="filter" />
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                    <li><a class="dropdown-item" href="#">Json</a></li>
+                    <li><a class="dropdown-item" href="#">Excel</a></li>
+                </ul>
             </div>
         </div>
     </div>

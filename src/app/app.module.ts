@@ -12,6 +12,12 @@ import { VaccinationTrendsComponent } from './vaccination-trends/vaccination-tre
 import { FormsModule } from '@angular/forms';
 import { VaccinationByTypeComponent } from './vaccination-by-type/vaccination-by-type.component';
 import { VaccinationByAgeComponent } from './vaccination-by-age/vaccination-by-age.component';
+import { RegistrationTrendsComponent } from './registration-trends/registration-trends.component';
+import { AefiReportedComponent } from './aefi-reported/aefi-reported.component';
+import { RuralVsUrbanTrendComponent } from './rural-vs-urban-trend/rural-vs-urban-trend.component';
+import { VaccinationByGenderComponent } from './vaccination-by-gender/vaccination-by-gender.component';
+import { FooterComponent } from './footer/footer.component';
+import { VaccinationByStateComponent } from './vaccination-by-state/vaccination-by-state.component';
 
 
 @NgModule({
@@ -22,14 +28,20 @@ import { VaccinationByAgeComponent } from './vaccination-by-age/vaccination-by-a
     LoaderComponent,
     VaccinationTrendsComponent,
     VaccinationByTypeComponent,
-    VaccinationByAgeComponent
+    VaccinationByAgeComponent,
+    RegistrationTrendsComponent,
+    AefiReportedComponent,
+    RuralVsUrbanTrendComponent,
+    VaccinationByGenderComponent,
+    FooterComponent,
+    VaccinationByStateComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     NgChartsModule,
-    FormsModule
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

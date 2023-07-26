@@ -1,0 +1,14 @@
+<div class="white-wrapper">
+    <div class="d-flex justify-content-between">
+        <h5 class="wrapper-head">Registration Trends</h5>
+        <p><b>Overall : 0.007 %</b></p>
+    </div>
+
+    <div class="line-chart">
+        <div *ngIf='chart'>
+            <canvas baseChart chartType="line" [datasets]="yearChart.data.datasets" [labels]="yearChart.data.labels"
+                [options]="yearChart.options" height="100px"></canvas>
+        </div>
+
+    </div>
+</div>

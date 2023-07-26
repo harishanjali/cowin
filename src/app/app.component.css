@@ -98,3 +98,69 @@
     margin: auto;
     background-size: 100%;
 }
+
+.counter-text {
+    padding: 15px 24px;
+    position: relative;
+    background: #e0f2f1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.counter-text p {
+    font-size: 12px;
+}
+
+.last-updated-text {
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 16px;
+}
+
+.floating-filter {
+    position: fixed;
+    right: 0;
+    top: 270px;
+    z-index: 99;
+}
+
+.floating-filter__container {
+    align-items: center;
+    background-color: #045d5d;
+    border: none;
+    border-bottom-left-radius: 38px;
+    border-top-left-radius: 38px;
+    box-shadow: 0 10px 10px -10px #333;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    font-size: 16px;
+    height: 51px;
+    justify-content: center;
+    position: relative;
+    width: 110px;
+    z-index: 3;
+}
+
+.dropdown-btns {
+    align-items: center;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+.state-filter {
+    border-right: 2px solid #fff;
+    padding-right: 5px;
+}
+
+.export-filter {
+    padding-left: 5px;
+}
+
+.dropdown-btns .dropdown-toggle::after {
+    border: none;
+}
